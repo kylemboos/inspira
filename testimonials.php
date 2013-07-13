@@ -44,12 +44,6 @@
       .marketing p + h4 {
         margin-top: 28px;
       }
-	  .centered-pills { text-align:center; }
-.centered-pills ul.nav-pills { display:inline-block; }
-.centered-pills li { display:inline; }
-.centered-pills a { float:left; }
-* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
-*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
     </style>
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -71,21 +65,18 @@
     <div class="container-narrow">
 
       <div class="masthead">
-	  
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="index.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="about.php">About</a></li>
 		  <li><a href="pricing.php">Pricing</a></li>
           <li><a href="contact.php">Contact</a></li>
 		  <li><a href="tutors.php">Tutors</a></li>
-		  <li><a href="testimonials.php">Testimonials</a></li>
+		  <li class="active"><a href="testimonials.php">Testimonials</a></li>
         </ul>
-		<h4>Inspira Spanish Tutoring</h4>
+        <h3 class="muted">Inspira Spanish Tutoring</h3>
       </div>
-	  
-	  <br>
-	  <br>
-	  <hr>
+
+      <hr>
 
       <div class="jumbotron">
         <h1>We Aim to Inspire!</h1>
@@ -97,25 +88,24 @@
 
       <div class="row-fluid marketing">
         <div class="span6">
-          <h4>Private/Group Home Tutoring</h4>
+          <h4>Subheading</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Live Web Seminars</h4>
+          <h4>Subheading</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-          <h4>Online Resources</h4>
+          <h4>Subheading</h4>
           <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
 
         <div class="span6">
-         <h4>SAT/AP Test Prep</h4>
+          <h4>Subheading</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Text/Document Translation</h4>
+          <h4>Subheading</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-		   <h4>Language/Culture Corporate Crash Courses</h4>
-          
+          <h4>Subheading</h4>
           <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
       </div>
