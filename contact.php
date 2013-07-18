@@ -62,7 +62,7 @@
 
   <body style="">
 
-    <div class="container-narrow">
+    <div class="container">
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">

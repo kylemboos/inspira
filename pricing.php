@@ -17,7 +17,11 @@
       /* Custom container */
       .container-narrow {
         margin: 0 auto;
-        max-width: 700px;
+        max-width: 200px;
+      }
+	  .container-narrow-text {
+        margin: 0 auto;
+        max-width: 400px;
       }
       .container-narrow > hr {
         margin: 30px 0;
@@ -62,62 +66,111 @@
 
   <body style="">
 
-    <div class="container-narrow">
+    <div class="container">
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
           <li><a href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
+		  <li><a href="services.php">Services</a></li>
 		  <li class="active"><a href="pricing.php">Pricing</a></li>
-          <li><a href="contact.php">Contact</a></li>
 		  <li><a href="tutors.php">Tutors</a></li>
 		  <li><a href="testimonials.php">Testimonials</a></li>
         </ul>
-        <h3 class="muted">Inspira Spanish Tutoring</h3>
+        <img src="assets/img/test.jpg"> </img>
       </div>
 
       <hr>
 
       <div class="jumbotron">
-        <h1>We Aim to Inspire!</h1>
-        <p class="lead">Need some sort of intro to the company or a smaller about us... could be a blurb to lead to signing up, checking out pricing, contact us, or meet the tutors.</p>
-        <a class="btn btn-large btn-success" href="#">Meet the Tutors</a>
+        <h1>Pricing</h1>
+		<hr>
+			<table class="table table-bordered table-striped container-narrow">
+			<colgroup>
+              <col class="span1">
+              <col class="span7">
+            </colgroup>
+			<thead>
+              <tr>
+                <th>Package</th>
+                <th>Rate</th>
+              </tr>
+            </thead>
+				<tbody>
+              <tr>
+                <td>
+                  Flat Rate
+                </td>
+                <td>
+                  $40.00/hr
+                </td>
+              </tr>
+			   <tr>
+                <td>
+                  5 Hours
+                </td>
+                <td>
+                  $175.00
+                </td>
+              </tr>
+			   <tr>
+                <td>
+                  10 Hours
+                </td>
+                <td>
+                  $300.00
+                </td>
+              </tr>
+			   <tr>
+                <td>
+                  15 Hours
+                </td>
+                <td>
+                  $375.00
+                </td>
+              </tr>
+            </tbody>
+			</table>
+			<br>
+			<p class = "container-narrow-text">*First session is an assessment and is free of charge. Payed packages begin at the second tutoring session once lesson plans can be created and implemented effectively.</p>
       </div>
 
-      <hr>
-
-      <div class="row-fluid marketing">
-        <div class="span6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-
-        <div class="span6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-      </div>
-
-      <hr>
+      
 
       <div class="footer">
-        <p>Inspira Spanish Tutoring 2013</p>
+        <div class="row-fluid marketing">
+        <div class="span5 offset1">
+		<h3>Contact Us</h3>
+		<form>
+			<div class="controls controls-row">
+				<input id="name" name="name" type="text" class="span3" placeholder="Name"> 
+				<input id="email" name="email" type="email" class="span3" placeholder="Email address">
+			</div>
+			<div class="controls">
+				<textarea id="message" name="message" class="span6" placeholder="Your Message" rows="5"></textarea>
+			</div>
+      
+			<div class="controls">
+				<button id="contact-submit" type="submit" class="btn btn-primary input-medium">Send</button>
+			</div>
+		</form>
+        </div>
+		
+		<div class="span4 offset2">
+			<br><br>
+			<img src="assets/img/logoni.jpg"> </img>
+			<br>
+          <p>Irvine, CA<br>(949) 529 - 1832<br>Monday-Friday 10:00 AM - 6:00 PM <br><a>info@inspiraspanishtutoring.com</a></p>
+		  <a href="https://www.facebook.com/InspiraSpanishTutoring"><img src="assets/img/fb.jpg"/></a>
+		  <a href=https://twitter.com/InspiraTutoring><img src="assets/img/tw.jpg"/></a>
+		  <a><img src="assets/img/li.jpg"/></a>
+
+        </div>
+      </div>
       </div>
 
     </div> <!-- /container -->
 
+		
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

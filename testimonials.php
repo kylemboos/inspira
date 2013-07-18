@@ -62,18 +62,17 @@
 
   <body style="">
 
-    <div class="container-narrow">
+    <div class="container">
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
           <li><a href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
+		  <li><a href="services.php">Services</a></li>
 		  <li><a href="pricing.php">Pricing</a></li>
-          <li><a href="contact.php">Contact</a></li>
 		  <li><a href="tutors.php">Tutors</a></li>
 		  <li class="active"><a href="testimonials.php">Testimonials</a></li>
         </ul>
-        <h3 class="muted">Inspira Spanish Tutoring</h3>
+        <img src="assets/img/test.jpg"> </img>
       </div>
 
       <hr>
@@ -113,7 +112,35 @@
       <hr>
 
       <div class="footer">
-        <p>Inspira Spanish Tutoring 2013</p>
+        <div class="row-fluid marketing">
+        <div class="span5 offset1">
+		<h3>Contact Us</h3>
+		<form>
+			<div class="controls controls-row">
+				<input id="name" name="name" type="text" class="span3" placeholder="Name"> 
+				<input id="email" name="email" type="email" class="span3" placeholder="Email address">
+			</div>
+			<div class="controls">
+				<textarea id="message" name="message" class="span6" placeholder="Your Message" rows="5"></textarea>
+			</div>
+      
+			<div class="controls">
+				<button id="contact-submit" type="submit" class="btn btn-primary input-medium">Send</button>
+			</div>
+		</form>
+        </div>
+		
+		<div class="span4 offset2">
+			<br><br>
+			<img src="assets/img/logoni.jpg"> </img>
+			<br>
+          <p>Irvine, CA<br>(949) 529 - 1832<br>Monday-Friday 10:00 AM - 6:00 PM <br><a>info@inspiraspanishtutoring.com</a></p>
+		  <a href="https://www.facebook.com/InspiraSpanishTutoring"><img src="assets/img/fb.jpg"/></a>
+		  <a href=https://twitter.com/InspiraTutoring><img src="assets/img/tw.jpg"/></a>
+		  <a><img src="assets/img/li.jpg"/></a>
+
+        </div>
+      </div>
       </div>
 
     </div> <!-- /container -->
