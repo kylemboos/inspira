@@ -17,11 +17,20 @@
       /* Custom container */
       .container-narrow {
         margin: 0 auto;
-        max-width: 200px;
+        max-width: 350px;
       }
 	  .container-narrow-text {
         margin: 0 auto;
         max-width: 400px;
+      }
+	  .container-text {
+        margin: 0 auto;
+        max-width: 750px;
+      }
+	  
+	  .question-text {
+        margin: 0 auto;
+		text-align: center;
       }
       .container-narrow > hr {
         margin: 30px 0;
@@ -84,6 +93,10 @@
       <div class="jumbotron">
         <h1>Pricing</h1>
 		<hr>
+		<div class = "container-text">
+		At Inspira Spanish Tutoring we offer pre-paid packages of tutoring lessons that allow us to better serve the client. Language is learned through practice and repetition, and by committing to a set amount of hours, we have found that students are more motivated to stay on track with their language learning.
+		</div>
+		<br>
 			<table class="table table-bordered table-striped container-narrow">
 			
 			<thead>
@@ -98,7 +111,7 @@
                   Flat Rate
                 </td>
                 <td>
-                  $40.00/hr
+                  $40.00 / hour
                 </td>
               </tr>
 			   <tr>
@@ -106,7 +119,7 @@
                   5 Hours
                 </td>
                 <td>
-                  $175.00
+                  $175.00 @ $35.00 / hour
                 </td>
               </tr>
 			   <tr>
@@ -114,7 +127,7 @@
                   10 Hours
                 </td>
                 <td>
-                  $300.00
+                  $300.00 @ $30.00 / hour
                 </td>
               </tr>
 			   <tr>
@@ -122,21 +135,50 @@
                   15 Hours
                 </td>
                 <td>
-                  $375.00
+                  $375.00 @ $25.00 / hour
                 </td>
               </tr>
             </tbody>
 			</table>
 			<br>
-			<p class = "container-narrow-text">*First session is an assessment and is free of charge. Payed packages begin at the second tutoring session once lesson plans can be created and implemented effectively.</p>
-      </div>
+			<div class = "container-narrow-text">
+				<p>*First session is an assessment and is free of charge. Payed packages begin at the second tutoring session once lesson plans can be created and implemented effectively.</p>
+     			
+				<p>**Packages must be used within a six-month period from date of purchase or they will be forfeited without refund.</p>
+			</div>
+			<br>
+			<table class="table table-bordered table-striped container-narrow">
+		
+				<tbody>
+              <tr>
+                <td>
+                  Translation
+                </td>
+                <td>
+                  $ / word
+                </td>
+              </tr>
+			   <tr>
+                <td>
+                  Proofreading
+                </td>
+                <td>
+                  $ / word
+                </td>
+              </tr>
+            </tbody>
+			</table>
+	 </div>
+		
+			<p class="question-text">If you should have any questions regarding our rates and services please fill out the form below.</p>
+			
 
-      
+      <hr>
 
       <div class="footer">
         <div class="row-fluid marketing">
         <div class="span5 offset1">
-		<h3>Contact Us</h3>
+		<h3>Ask About Payments</h3>
 		<form>
 			<div class="controls controls-row">
 				<input id="name" name="name" type="text" class="span5" placeholder="Name"> 
