@@ -85,10 +85,7 @@
         <h1>Pricing</h1>
 		<hr>
 			<table class="table table-bordered table-striped container-narrow">
-			<colgroup>
-              <col class="span1">
-              <col class="span7">
-            </colgroup>
+			
 			<thead>
               <tr>
                 <th>Package</th>
@@ -142,11 +139,11 @@
 		<h3>Contact Us</h3>
 		<form>
 			<div class="controls controls-row">
-				<input id="name" name="name" type="text" class="span3" placeholder="Name"> 
-				<input id="email" name="email" type="email" class="span3" placeholder="Email address">
+				<input id="name" name="name" type="text" class="span5" placeholder="Name"> 
+				<input id="email" name="email" type="email" class="span5" placeholder="Email address">
 			</div>
 			<div class="controls">
-				<textarea id="message" name="message" class="span6" placeholder="Your Message" rows="5"></textarea>
+				<textarea id="message" name="message" class="span10" placeholder="Your Message" rows="5"></textarea>
 			</div>
       
 			<div class="controls">
@@ -155,7 +152,7 @@
 		</form>
         </div>
 		
-		<div class="span4 offset2">
+		<div class="span4 offset1">
 			<br><br>
 			<img src="assets/img/logoni.jpg"> </img>
 			<br>
