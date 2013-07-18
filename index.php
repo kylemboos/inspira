@@ -50,7 +50,17 @@
      margin-left: auto;
      margin-right: auto;
 	}
-	
+	.blank-holder{
+	height: 77px;
+	width: 241px;
+	}
+	#jumbo-back
+	{
+		background-image:url('assets/img/jumbo.jpg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-position:center;
+	}
 	#tw-img{
 		background-image:"assets/img/tw.jpg";
 	}
@@ -98,9 +108,14 @@
 	  <hr>
 
       <div class="jumbotron">
-        <h1>Site Under Development!</h1>
         <p class="lead">Inspira Spanish Tutoring offers private and group tutoring lessons for all levels of Spanish learners. Our staff aims not only to help students of Spanish, but also to urge the retention of language in order to work towards bilingualism. Our skilled team of tutors consists mainly of Spanish majors or minors that have a passion for teaching and promoting the Spanish language. All of our instructors are friendly, patient, and hope to motivate students to become fluent in Spanish.</p>
         <a class="btn btn-large btn-success" href="services.php">Services</a>
+		<br>
+		
+	
+		
+		
+		
       </div>
       <hr>
 
