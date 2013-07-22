@@ -73,7 +73,7 @@
 		  <li><a href="tutors.php">Tutors</a></li>
 		  <li><a href="testimonials.php">Testimonials</a></li>
         </ul>
-		<img src="assets/img/test.jpg"> </img>
+		<a href="index.php"><img src="assets/img/test.jpg"></img></a>
       </div>
 
    
@@ -84,24 +84,22 @@
 		<div class="span6 offset3">
 		<h1>Services</h1>
 		<hr>
-		 <h3>Private/Group Home Tutoring</h3>
-          <p>We specialize in catering to our clients’ needs by travelling to their homes to conduct lessons. One-on-one tutoring is our most common service offered, however we also provide lessons for small groups of students that have relatively the same level of understanding of Spanish.</p>
+		 <h3>Private and Group Home Tutoring</h3>
+          <p>We specialize in catering to our clients’ needs by travelling to their homes to conduct lessons. One-on-one tutoring is our most common service offered, however we also provide lessons for small groups of students that have relatively the same level of understanding of Spanish. Prices will vary depending on the size of the groups.</p>
   <br>
            <h3>Live Web Seminars</h3>
-          <p>Travel often? Work odd hours? No problem! Let us help you learn Spanish from the web. We are able to connect with clients via the internet and conduct sessions with audio and visual aids to simulate a private face-to-face session. We strive to strive to break the boundaries of traditional tutoring and cater to the learning style of each individual, and for some students web-based tutoring is the most effective way to learn a language.</p>
+          <p>Travel often? Work odd hours? No problem! Let us help you learn Spanish from the web. We are able to connect with clients via the internet and conduct sessions with audio and visual aids to simulate a private face-to-face session. We strive to break the boundaries of traditional tutoring and cater to the learning style of each individual, and for some students web-based tutoring is the most effective way to learn a language.</p>
+		 <br>
+        <h3>Language and Culture Corporate Crash Courses</h3>
+         <p>Is your company thinking of expanding into the emerging Latin American markets or planning a business trip to Spain? We’ve got you covered! In today’s world, knowing the political, social, and historical aspects of a particular person’s culture can be the key to gaining their trust, and their business. We will provide you with not only linguistic information of your area of interest, but also cultural insight. Our staff will travel to your office and provide a “crash course” on the region your business is beginning to reach out to.</p>
+        
  <br>
            <h3>Online Resources</h3>
           <p>All of our students are given access to supplemental information and resources that are not provided by teachers or other instructors. We have created worksheets, examples, and online video tutorials on various subjects for students that would like to practice their Spanish outside of tutoring sessions.</p>
 <br>        
 		<h3>SAT/AP Test Prep</h3>
           <p>Our tutors and educators are specialized in teaching curriculum that will appear on standardized tests. We focus on grammar, oral, and written skills that are vital to passing these rigorous tests. Timed multiple choice and reading questions will help students master the timed sections on tests, and feel more confident on test day.</p>
- <br>
-          <h3>Text/Document Translation</h3>
-        <p>Inspira Spanish Tutoring offers the translation and proofreading of documents in a myriad of profession fields.</p>
- <br>
-        <h3>Language/Culture Corporate Crash Courses</h3>
-         <p>Is your company thinking of expanding into the emerging Latin American markets or planning a business trip to Spain? We’ve got you covered! In today’s world, knowing the political, social, and historical aspects of a particular person’s culture can be the key to gaining their trust, and their business. We will provide you with not only linguistic information of your area of interest, but also cultural insight. Our staff will travel to your office and provide a “crash course” on the region your business is beginning to reach out to.</p>
-         </div>
+          
 		  </div>
 		  </div>
 

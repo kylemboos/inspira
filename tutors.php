@@ -72,7 +72,7 @@
 		  <li class="active"><a href="tutors.php">Tutors</a></li>
 		  <li><a href="testimonials.php">Testimonials</a></li>
         </ul>
-        <img src="assets/img/test.jpg"> </img>
+		<a href="index.php"><img src="assets/img/test.jpg"></img></a>
       </div>
 
       <hr>

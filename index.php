@@ -23,6 +23,13 @@
       .container-narrow > hr {
         margin: 30px 0;
       }
+	  
+	  .backlogo {
+        background-image: url(/assets/img/400.jpg);
+		background-repeat:no-repeat;
+		background-position: center center;
+		
+      }
 
       /* Main marketing message and sign up button */
       .jumbotron {
@@ -90,7 +97,6 @@
   <style type="text/css"></style></head>
 
   <body style="">
-
     <div class="container">
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
@@ -100,7 +106,7 @@
 		  <li><a href="tutors.php">Tutors</a></li>
 		  <li><a href="testimonials.php">Testimonials</a></li>
         </ul>
-		<img src="assets/img/test.jpg"> </img>
+		<a href="index.php"><img src="assets/img/test.jpg"></img></a>
       </div>
 	  
 	
@@ -108,7 +114,10 @@
 	  <hr>
 
       <div class="jumbotron">
-        <p class="lead">Inspira Spanish Tutoring offers private and group tutoring lessons for all levels of Spanish learners. Our staff aims not only to help students of Spanish, but also to urge the retention of language in order to work towards bilingualism. Our skilled team of tutors consists mainly of Spanish majors or minors that have a passion for teaching and promoting the Spanish language. All of our instructors are friendly, patient, and hope to motivate students to become fluent in Spanish.</p>
+	  <img src="assets/img/biglogo.jpg"></img>
+	  <br>
+	  <br>
+        <p class="lead">Inspira Spanish Tutoring offers private and group tutoring lessons for all levels of Spanish learners. Our staff aims not only to help students of Spanish, but also to urge the retention of language in order to work towards bilingualism. Our skilled team of tutors consists of individuals that have a passion for teaching and promoting the Spanish language. All of our instructors are friendly, patient, and aspire to motivate students to become fluent in Spanish.</p>
         <a class="btn btn-large btn-success" href="services.php">Services</a>
 		<br>
 		

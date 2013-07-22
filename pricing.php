@@ -85,7 +85,7 @@
 		  <li><a href="tutors.php">Tutors</a></li>
 		  <li><a href="testimonials.php">Testimonials</a></li>
         </ul>
-        <img src="assets/img/test.jpg"> </img>
+		<a href="index.php"><img src="assets/img/test.jpg"></img></a>
       </div>
 
       <hr>
@@ -142,32 +142,11 @@
 			</table>
 			<br>
 			<div class = "container-narrow-text">
-				<p>*First session is an assessment and is free of charge. Payed packages begin at the second tutoring session once lesson plans can be created and implemented effectively.</p>
+				<p>*First session is an assessment and is free of charge. Paid packages begin at the second tutoring session once lesson plans can be created and implemented effectively.</p>
      			
 				<p>**Packages must be used within a six-month period from date of purchase or they will be forfeited without refund.</p>
 			</div>
-			<br>
-			<table class="table table-bordered table-striped container-narrow">
-		
-				<tbody>
-              <tr>
-                <td>
-                  Translation
-                </td>
-                <td>
-                  $ / word
-                </td>
-              </tr>
-			   <tr>
-                <td>
-                  Proofreading
-                </td>
-                <td>
-                  $ / word
-                </td>
-              </tr>
-            </tbody>
-			</table>
+			
 	 </div>
 		
 			<p class="question-text">If you should have any questions regarding our rates and services please fill out the form below.</p>
