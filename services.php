@@ -104,6 +104,7 @@
 		  </div>
 
 
+		  </div>
       <hr>
 
       <div class="footer">
@@ -138,7 +139,7 @@
       </div>
       </div>
 
-    </div> <!-- /container -->
+     <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->

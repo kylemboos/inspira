@@ -9,7 +9,7 @@
     <meta name="author" content="" /><!-- Le styles -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
-/*<![CDATA[*/
+
       body {
         padding-top: 20px;
         padding-bottom: 40px;
@@ -38,6 +38,13 @@
         font-size: 21px;
         padding: 14px 24px;
       }
+	  
+	  .tutbio {
+      }
+	  
+	  .tutpic{
+	  
+	  }
 
       /* Supporting marketing content */
       .marketing {
@@ -46,7 +53,7 @@
       .marketing p + h4 {
         margin-top: 28px;
       }
-    /*]]>*/
+   
     </style>
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -88,23 +95,57 @@
       <hr />
       <div class="jumbotron">
         <h1>
-          Who We Are
-        </h1><br />
+          Meet Some of Our Tutors!
+        </h1><br/><br /><br/>
 		<div class= "container row-fluid">
 			<div class= "half-container row-fluid">
-				<img class= "span6"></img>
-				<p class="span6">this is some temporary text</p>
+				<div class="tutbio span6">
+				<h4 style="font-weight: bold;">
+				Jaclyn Provencher
+				</h4>
+				<h5 style="font-weight: bold;">
+				President / Tutor
+				</h5>
+				
+				<p>
+				Jaclyn began studying Spanish when she was 12 and realized early on that it was her passion. She graduated from the University of California, Irvine  with BA’s in Spanish and Global Cultures with a minor in Latin American Studies. During the Fall Quarter of her last year at UC Irvine, she studied abroad in Santiago, Chile and lived with a home-stay, traveled throughout Latin America, and had an internship teaching English to elementary school children. <br/><br/>
+				Jaclyn has been tutoring independently in Orange County throughout college and she has experience teaching a myriad of levels of Spanish. She has passed the Spanish Language AP exam, Spanish Literature AP exam, and the SAT Spanish subject test. She is also a member of the National Collegiate Hispanic Honor Society (Sigma Delta Pi) and she served as Vice President her third year at UCI and Co-President for her final year.<br/><br/>
+				Relevant College Courses:<br/> 
+				Textual Analysis and Interpretation, 20th Century Mexican Literature, Latin American Poetry, The Prose of Borges, Grammar and Composition,  Spanish Phonetics, Introduction to Spanish Linguistics, Advanced Conversation, Latin American Spanish
+				</p>
+				</div>
+				<div class="span6">
+				<img src="assets/img/jaclyntut.jpg"></img>
+				</div>
+				
 			</div>
-			
+			<br/><br/><br/><hr/><br/><br/>
 			<div class= "half-container row-fluid">
-				<img class= "span6"></img>
-				<p class="span6">this is some temporary text</p>
-			</div>
+				
+				
+				<div class=" tutbio span6" >
+				<h4 style="font-weight: bold;">
+				Joanna Godinez
+				</h4>
+				<h5 style="font-weight: bold;">
+				Tutor
+				</h5>
+				<p>
+				Joanna graduated from the University of California, Irvine in 2013 with a Bachelor’s degree in Psychology and Anthropology and a minor in Spanish. She became a member of the National Collegiate Hispanic Honor Society in 2011 and served as treasurer her fourth year and Co-President her fifth year for the honor society. She volunteered weekly as a tutor for READ/OC where she planned weekly tutoring sessions for an ESL adult learner. In high school she always helped students in her AP Spanish class with their homework assignments, essays, and presentations. <br/><br/>
+				Joanna really enjoys working with and helping others improve their Spanish language skills and is extremely excited to start working with students who are interested in learning the Spanish language!<br/><br/>
+				Relevant College Courses:<br/> 
+				Grammar and Composition, Introduction to Latin America Literature and Culture, Spanish American Short Novel, 20th Century Mexican Literature
+				</p>
+				</div>
+				<div class="span6">
+				<img src="assets/img/joannatut.jpg"></img>
+				</div>
 		
 		</div>
 	
        <br />
       </div>
+	  </div>
       <hr />
       <div class="footer row-fluid marketing">
         <div class="span5 offset1">
@@ -143,7 +184,7 @@
           <a><img src="assets/img/li.jpg" alt="Image" /></a>
         </div>
       </div>
-    </div><!-- /container -->
+    <!-- /container -->
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

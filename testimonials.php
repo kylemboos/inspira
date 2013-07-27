@@ -36,6 +36,9 @@
         font-size: 21px;
         padding: 14px 24px;
       }
+	  .testimonial {
+        
+      }
 
       /* Supporting marketing content */
       .marketing {
@@ -78,9 +81,24 @@
       <hr>
 
      <div class="jumbotron">
-        <h1>Coming Soon!</h1>
+        <div class="row-fluid marketing">
+		<div class="span6 offset3">
+		<h1>Testimonials</h1>
+		<hr>
+		<div class ="testimonial">
+          <p>
+			"Jaclyn was my daughter’s tutor for over a year and she helped her with Spanish language and Spanish literature IB courses. She was very flexible and it was convenient that she came to our home to conduct lessons. My daughter was able to maintain an A in her Spanish courses and become more comfortable with reading and speaking in Spanish, and she will be attending a top ranking university in the fall. We are very happy with the services we received and we highly recommend Inspira Spanish Tutoring!"
+		  </p>
+		  <p style="text-align:right; font-style: italic;">
+		  Elizabeth – Costa Mesa, CA
+		  </p>
+		  <br>
+           
+		  </div>
+		  </div>
        
       </div>
+	  </div>
 
       <hr>
 
@@ -116,7 +134,7 @@
       </div>
       </div>
 
-    </div> <!-- /container -->
+     <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
