@@ -131,8 +131,8 @@
           <img src="assets/img/logoni.jpg" alt="Image" /><br />
           <p>Irvine, CA<br>(949) 529 - 1832<br>Monday-Friday 10:00 AM - 6:00 PM <br><a>info@inspiraspanishtutoring.com</a></p>
 		  <a href="https://www.facebook.com/InspiraSpanishTutoring"><img src="assets/img/fb.jpg"/></a>
-		  <a href=https://twitter.com/InspiraTutoring><img src="assets/img/tw.jpg"/></a>
-		  <a><img src="assets/img/li.jpg"/></a>
+		  <a href="https://twitter.com/InspiraTutoring"><img src="assets/img/tw.jpg"/></a>
+		  <a href = "http://www.linkedin.com/company/inspira-spanish-tutoring"><img src="assets/img/li.jpg"/></a>
         </div>
       </div>
     </div><!-- /container -->
