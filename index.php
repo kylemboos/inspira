@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta name="generator" content=
@@ -98,6 +99,8 @@
     <link rel="apple-touch-icon-precomposed" href=
     "../assets/ico/apple-touch-icon-57-precomposed.png" />
     <link rel="shortcut icon" href="../assets/ico/favicon.png" />
+	
+	
   </head>
   <body>
     <div class="container">
@@ -151,7 +154,7 @@
 </textarea>
             </div>
             <div class="controls">
-              <button id="contact-submit" type="submit" class=
+              <button id="contact-submit" onclick="sendMail()" type="submit" class=
               "btn btn-primary input-medium">Send</button>
             </div>
           </form>
@@ -160,23 +163,38 @@
           <br />
           <br />
           <img src="assets/img/logoni.jpg" alt="Image" /><br />
-          <p>
-            Irvine, CA<br />
-            (949) 529 - 1832<br />
-            Monday-Friday 10:00 AM - 6:00 PM<br />
-            <a>info@inspiraspanishtutoring.com</a>
-          </p><a href="https://www.facebook.com/InspiraSpanishTutoring"><img src=
-          "assets/img/fb.jpg" alt="Image" /></a> <a href=
-          "https://twitter.com/InspiraTutoring"><img src="assets/img/tw.jpg" alt="Image" /></a>
-          <a><img src="assets/img/li.jpg" alt="Image" /></a>
+          <p>Irvine, CA<br>(949) 529 - 1832<br>Monday-Friday 10:00 AM - 6:00 PM <br><a>info@inspiraspanishtutoring.com</a></p>
+		  <a href="https://www.facebook.com/InspiraSpanishTutoring"><img src="assets/img/fb.jpg"/></a>
+		  <a href=https://twitter.com/InspiraTutoring><img src="assets/img/tw.jpg"/></a>
+		  <a><img src="assets/img/li.jpg"/></a>
         </div>
       </div>
     </div><!-- /container -->
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js" type="text/javascript">
-</script><script src="bootstrap/js/bootstrap.js" type="text/javascript">
-</script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function sendMail(){
+		console.log("SEND MAIL FUNCTION");
+		 var name = $('#name').val();
+		 var email = $('#email').val();
+		 var message = $('#message').val();
+		 
+			$.ajax({
+			type: "POST",
+			url: "sendMail.php",
+			data: {fname:name, femail:email, fmessage:message}
+			}).done(function() {
+				alert("Message Sent!");
+			}).fail(function(error){
+				console.log(error);
+			});
+		
+	}
+	
+	</script>
+	
   </body>
 </html>

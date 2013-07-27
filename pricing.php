@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -154,49 +155,63 @@
 
       <hr>
 
-      <div class="footer">
-        <div class="row-fluid marketing">
+      <div class="footer row-fluid marketing">
         <div class="span5 offset1">
-		<h3>Ask About Payments</h3>
-		<form>
-			<div class="controls controls-row">
-				<input id="name" name="name" type="text" class="span5" placeholder="Name"> 
-				<input id="email" name="email" type="email" class="span5" placeholder="Email address">
-			</div>
-			<div class="controls">
-				<textarea id="message" name="message" class="span10" placeholder="Your Message" rows="5"></textarea>
-			</div>
-      
-			<div class="controls">
-				<button id="contact-submit" type="submit" class="btn btn-primary input-medium">Send</button>
-			</div>
-		</form>
+          <h3>
+            Contact Us
+          </h3>
+          <form>
+            <div class="controls controls-row">
+              <input id="name" name="name" type="text" class="span5" placeholder="Name" />
+              <input id="email" name="email" type="email" class="span5" placeholder=
+              "Email address" />
+            </div>
+            <div class="controls">
+              <textarea id="message" name="message" class="span10" placeholder="Your Message" rows=
+              "5">
+</textarea>
+            </div>
+            <div class="controls">
+              <button id="contact-submit" onclick="sendMail()" type="submit" class=
+              "btn btn-primary input-medium">Send</button>
+            </div>
+          </form>
         </div>
-		
-		<div class="span4 offset1">
-			<br><br>
-			<img src="assets/img/logoni.jpg"> </img>
-			<br>
+        <div class="span4 offset1">
+          <br />
+          <br />
+          <img src="assets/img/logoni.jpg" alt="Image" /><br />
           <p>Irvine, CA<br>(949) 529 - 1832<br>Monday-Friday 10:00 AM - 6:00 PM <br><a>info@inspiraspanishtutoring.com</a></p>
 		  <a href="https://www.facebook.com/InspiraSpanishTutoring"><img src="assets/img/fb.jpg"/></a>
 		  <a href=https://twitter.com/InspiraTutoring><img src="assets/img/tw.jpg"/></a>
 		  <a><img src="assets/img/li.jpg"/></a>
-
         </div>
       </div>
-      </div>
-
-    </div> <!-- /container -->
-
-		
+    </div><!-- /container -->
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
-
-
-  
-
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function sendMail(){
+		console.log("SEND MAIL FUNCTION");
+		 var name = $('#name').val();
+		 var email = $('#email').val();
+		 var message = $('#message').val();
+		 
+			$.ajax({
+			type: "POST",
+			url: "sendMailPricing.php",
+			data: {fname:name, femail:email, fmessage:message}
+			}).done(function() {
+				alert("Message Sent!");
+			}).fail(function(error){
+				console.log(error);
+			});
+		
+	}
+	
+	</script>
 </body>
 </html>
