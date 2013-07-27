@@ -163,7 +163,7 @@
           <form>
             <div class="controls controls-row">
               <input id="name" name="name" type="text" class="span5" placeholder="Name" />
-              <input id="email" name="email" type="email" class="span5" placeholder=
+              <input id="email" name="email" type="text" class="span5" placeholder=
               "Email address" />
             </div>
             <div class="controls">

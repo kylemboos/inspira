@@ -145,7 +145,7 @@
           <form>
             <div class="controls controls-row">
               <input id="name" name="name" type="text" class="span5" placeholder="Name" />
-              <input id="email" name="email" type="email" class="span5" placeholder=
+              <input id="email" name="email" type="text" class="span5" placeholder=
               "Email address" />
             </div>
             <div class="controls">
@@ -182,11 +182,8 @@
 		 var email = $('#email').val();
 		 var message = $('#message').val();
 		 
-			$.ajax({
-			type: "POST",
-			url: "sendMail.php",
-			data: {fname:name, femail:email, fmessage:message}
-			}).done(function() {
+			$.post("sendMail.php", {fname:name, femail:email, fmessage:message})
+			.done(function() {
 				alert("Message Sent!");
 			}).fail(function(error){
 				console.log(error);
