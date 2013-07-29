@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Inspira Spanish Tutoring</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Le styles -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<?php include 'header.php'; ?>
     <style type="text/css">
       body {
         padding-top: 20px;
@@ -59,22 +49,7 @@
         margin-top: 28px;
       }
     </style>
-    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
-  <style type="text/css"></style></head>
-
-  <body style="">
+  <body>
 
     <div class="container">
 
@@ -188,30 +163,4 @@
         </div>
       </div>
     </div><!-- /container -->
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		function sendMail(){
-		console.log("SEND MAIL FUNCTION");
-		 var name = $('#name').val();
-		 var email = $('#email').val();
-		 var message = $('#message').val();
-		 
-			$.ajax({
-			type: "POST",
-			url: "sendMailPricing.php",
-			data: {fname:name, femail:email, fmessage:message}
-			}).done(function() {
-				alert("Message Sent!");
-			}).fail(function(error){
-				console.log(error);
-			});
-		
-	}
-	
-	</script>
-</body>
-</html>
+  <?php include 'footer.php'; ?>
