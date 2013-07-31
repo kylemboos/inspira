@@ -64,13 +64,21 @@
 		<hr>
 		<div class ="testimonial">
           <p>
+			"Being tutored by Jaclyn was and still remains one of the most rewarding experiences I have had the pleasure of gaining during my academic journey through college. Initially, I was apprehensive about taking Spanish courses to fulfill my requirements for both my humanities majors; however with Jaclyn's unrelenting encouragement and enthusiasm, I shed my reluctance and grew a genuine interest in learning more about Spanish culture. From this blossoming admiration, I have become inspired to one day be fluent in Spanish as well as travel abroad to indulge in its rich culture. Jaclyn is extremely proficient, diligent, organized, and most importantly- approachable. She makes the learning experience enjoyable, which is a nice change of pace from the dull classroom setting. I am thoroughly indebted to her and recommend her services, you will not be disappointed."		  </p>
+		  <p style="text-align:right; font-style: italic;">
+		  -Caroline Kim, UC Irvine
+		  </p>
+		  <br>
+		  <br>
+		  </div>
+		  <div class ="testimonial">
+          <p>
 			"Jaclyn was my daughter’s tutor for over a year and she helped her with Spanish language and Spanish literature IB courses. She was very flexible and it was convenient that she came to our home to conduct lessons. My daughter was able to maintain an A in her Spanish courses and become more comfortable with reading and speaking in Spanish, and she will be attending a top ranking university in the fall. We are very happy with the services we received and we highly recommend Inspira Spanish Tutoring!"
 		  </p>
 		  <p style="text-align:right; font-style: italic;">
 		  Elizabeth – Costa Mesa, CA
 		  </p>
 		  <br>
-           
 		  </div>
 		  </div>
        
