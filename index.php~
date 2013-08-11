@@ -1,6 +1,5 @@
 <?php include 'header.php'; ?>
   <body>
-	<?php include_once("analytics.php") ?>
     <div class="container">
       <div class="masthead">
         <ul class="nav nav-pills pull-right">

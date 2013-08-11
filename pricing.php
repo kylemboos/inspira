@@ -50,6 +50,7 @@
       }
     </style>
   <body>
+	<?php include_once("analytics.php") ?>
 
     <div class="container">
 

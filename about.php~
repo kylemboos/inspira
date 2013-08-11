@@ -61,7 +61,6 @@
   <style type="text/css"></style></head>
 
   <body style="">
-	<?php include_once("analytics.php") ?>
 
     <div class="container">
 
