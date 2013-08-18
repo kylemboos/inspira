@@ -121,7 +121,6 @@
 			<div class = "container-narrow-text">
 				<p>*First session is an assessment and is free of charge. Paid packages begin at the second tutoring session once lesson plans can be created and implemented effectively.</p>
      			
-				<p>**Packages must be used within a six-month period from date of purchase or they will be forfeited without refund.</p>
 			</div>
 			
 	 </div>
