@@ -73,6 +73,9 @@
           <li><a href="contact.php">Contact</a></li>
 		  <li><a href="tutors.php">Tutors</a></li>
 		  <li><a href="testimonials.php">Testimonials</a></li>
+		  <li><a href="presources.php">Parents</a></li>
+		  <li><a href="sresources.php">Students</a></li>
+		  <li><a href="employment.php">Employment</a></li>
         </ul>
         <h3 class="muted">Inspira Spanish Tutoring</h3>
       </div>

@@ -43,6 +43,10 @@
         font-size: 72px;
         line-height: 1;
       }
+	  .jumbotron h2 {
+        font-size: 42px;
+        line-height: 1;
+      }
       .jumbotron .btn {
         font-size: 21px;
         padding: 14px 24px;

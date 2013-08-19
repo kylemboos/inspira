@@ -61,7 +61,13 @@
 		  <li class="active"><a href="pricing.php">Pricing</a></li>
 		  <li><a href="tutors.php">Tutors</a></li>
 		  <li><a href="testimonials.php">Testimonials</a></li>
+		  <li><a href="presources.php">Parents</a></li>
+		  <li><a href="sresources.php">Students</a></li>
+		  <li><a href="employment.php">Employment</a></li>
+
+
         </ul>
+		
 		<a href="index.php"><img src="assets/img/test.jpg"></img></a>
       </div>
 
@@ -109,7 +115,7 @@
               </tr>
 			   <tr>
                 <td>
-                  15 Hours
+                  15+ Hours
                 </td>
                 <td>
                   $375.00 @ $25.00 / hour

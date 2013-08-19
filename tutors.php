@@ -66,6 +66,9 @@
           <li>
             <a href="testimonials.php">Testimonials</a>
           </li>
+		  <li><a href="presources.php">Parents</a></li>
+		  <li><a href="sresources.php">Students</a></li>
+		  <li><a href="employment.php">Employment</a></li>
         </ul><a href="index.php"><img src="assets/img/test.jpg" alt="Image" /></a>
       </div>
       <hr />
