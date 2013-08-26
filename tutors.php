@@ -1,163 +1,155 @@
 <?php include 'header.php'; ?>
-    <style type="text/css">
-
-      body {
-        padding-top: 20px;
-        padding-bottom: 40px;
-      }
-
-      /* Custom container */
-      .half-container {
-        width: 100%;
-		height: 50%;
-      }
-	  
-      .container-narrow > hr {
-        margin: 30px 0;
-      }
-
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 60px 0;
-        text-align: center;
-      }
-      .jumbotron h1 {
-        font-size: 72px;
-        line-height: 1;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
-	  
-	  .tutbio {
-      }
-	  
-	  .tutpic{
-	  
-	  }
-
-      /* Supporting marketing content */
-      .marketing {
-        margin: 60px 0;
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
-      }
-   
-    </style>
-  <body>
+<style type="text/css">
+	body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	}
+	/* Custom container */
+	.half-container {
+	width: 100%;
+	height: 50%;
+	}
+	.container-narrow > hr {
+	margin: 30px 0;
+	}
+	/* Main marketing message and sign up button */
+	.jumbotron {
+	margin: 60px 0;
+	text-align: center;
+	}
+	.jumbotron h1 {
+	font-size: 48px;
+	line-height: 1;
+	}
+	.jumbotron p {
+	text-align:justify;
+	}
+	.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+	}
+	.tutbio {
+	}
+	.tutpic{
+	}
+	/* Supporting marketing content */
+	.marketing {
+	margin: 60px 0;
+	}
+	.marketing p + h4 {
+	margin-top: 28px;
+	}
+</style>
+<body>
 	<?php include_once("analytics.php") ?>
-    <div class="container">
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li>
-            <a href="index.php">Home</a>
-          </li>
-          <li>
-            <a href="services.php">Services</a>
-          </li>
-          <li>
-            <a href="pricing.php">Pricing</a>
-          </li>
-          <li class="active">
-            <a href="tutors.php">Tutors</a>
-          </li>
-          <li>
-            <a href="testimonials.php">Testimonials</a>
-          </li>
-		  <li><a href="presources.php">Parents</a></li>
-		  <li><a href="sresources.php">Students</a></li>
-		  <li><a href="employment.php">Employment</a></li>
-        </ul><a href="index.php"><img src="assets/img/test.jpg" alt="Image" /></a>
-      </div>
-      <hr />
-      <div class="jumbotron">
-        <h1>
-          Meet Some of Our Tutors!
-        </h1><br/><br /><br/>
-		<div class= "container row-fluid">
-			<div class= "half-container row-fluid">
-				<div class="tutbio span6">
-				<h4 style="font-weight: bold;">
-				Jaclyn Provencher
-				</h4>
-				<h5 style="font-weight: bold;">
-				President / Tutor
-				</h5>
-				
-				<p>
-				Jaclyn began studying Spanish when she was 12 and realized early on that it was her passion. She graduated from the University of California, Irvine  with BA’s in Spanish and Global Cultures with a minor in Latin American Studies. During the Fall Quarter of her last year at UC Irvine, she studied abroad in Santiago, Chile and lived with a home-stay, traveled throughout Latin America, and had an internship teaching English to elementary school children. <br/><br/>
-				Jaclyn has been tutoring independently in Orange County throughout college and she has experience teaching a myriad of levels of Spanish. She has passed the Spanish Language AP exam, Spanish Literature AP exam, and the SAT Spanish subject test. She is also a member of the National Collegiate Hispanic Honor Society (Sigma Delta Pi) and she served as Vice President her third year at UCI and Co-President for her final year.<br/><br/>
-				Relevant College Courses:<br/> 
-				Textual Analysis and Interpretation, 20th Century Mexican Literature, Latin American Poetry, The Prose of Borges, Grammar and Composition,  Spanish Phonetics, Introduction to Spanish Linguistics, Advanced Conversation, Latin American Spanish
-				</p>
+	<div class="container">
+		<div class="masthead">
+			<ul class="nav nav-pills pull-right">
+				<li>
+					<a href="index.php">Home</a>
+				</li>
+				<li>
+					<a href="services.php">Services</a>
+				</li>
+				<li>
+					<a href="pricing.php">Pricing</a>
+				</li>
+				<li class="active">
+					<a href="tutors.php">Tutors</a>
+				</li>
+				<li>
+					<a href="testimonials.php">Testimonials</a>
+				</li>
+				<li><a href="presources.php">Parents</a></li>
+				<li><a href="sresources.php">Students</a></li>
+				<li><a href="employment.php">Employment</a></li>
+			</ul>
+			<a href="index.php"><img src="assets/img/test.jpg" alt="Image" /></a>
+		</div>
+		<hr />
+		<div class="jumbotron">
+			<h1>
+				Meet Some of Our Tutors!
+			</h1>
+			<br/><br /><br/>
+			<div class= "container row-fluid">
+				<div class= "half-container row-fluid">
+					<div class="tutbio span6">
+						<h4 style="font-weight: bold;">
+							Jaclyn Provencher
+						</h4>
+						<h5 style="font-weight: bold;">
+							President / Tutor
+						</h5>
+						<p>
+							Jaclyn began studying Spanish when she was 12 and realized early on that it was her passion. She graduated from the University of California, Irvine  with BA’s in Spanish and Global Cultures with a minor in Latin American Studies. During the Fall Quarter of her last year at UC Irvine, she studied abroad in Santiago, Chile and lived with a home-stay, traveled throughout Latin America, and had an internship teaching English to elementary school children. <br/><br/>
+							Jaclyn has been tutoring independently in Orange County throughout college and she has experience teaching a myriad of levels of Spanish. She has passed the Spanish Language AP exam, Spanish Literature AP exam, and the SAT Spanish subject test. She is also a member of the National Collegiate Hispanic Honor Society (Sigma Delta Pi) and she served as Vice President her third year at UCI and Co-President for her final year.<br/><br/>
+							Relevant College Courses:<br/> 
+							Textual Analysis and Interpretation, 20th Century Mexican Literature, Latin American Poetry, The Prose of Borges, Grammar and Composition,  Spanish Phonetics, Introduction to Spanish Linguistics, Advanced Conversation, Latin American Spanish
+						</p>
+					</div>
+					<div class="span6">
+						<img src="assets/img/jaclyntut.jpg"></img>
+					</div>
+				</div>
+			</div>
+			<br/><br/><br/>
+			<hr/>
+			<br/><br/>
+			<div class= "container row-fluid">
+				<div class=" tutbio span6" >
+					<h4 style="font-weight: bold;">
+						Joanna Godinez
+					</h4>
+					<h5 style="font-weight: bold;">
+						Tutor
+					</h5>
+					<p>
+						Joanna graduated from the University of California, Irvine in 2013 with a Bachelor’s degree in Psychology and Anthropology and a minor in Spanish. She became a member of the National Collegiate Hispanic Honor Society in 2011 and served as treasurer her fourth year and Co-President her fifth year for the honor society. She volunteered weekly as a tutor for READ/OC where she planned weekly tutoring sessions for an ESL adult learner. In high school she always helped students in her AP Spanish class with their homework assignments, essays, and presentations. <br/><br/>
+						Joanna really enjoys working with and helping others improve their Spanish language skills and is extremely excited to start working with students who are interested in learning the Spanish language!<br/><br/>
+						Relevant College Courses:<br/> 
+						Grammar and Composition, Introduction to Latin America Literature and Culture, Spanish American Short Novel, 20th Century Mexican Literature
+					</p>
 				</div>
 				<div class="span6">
-				<img src="assets/img/jaclyntut.jpg"></img>
+					<img src="assets/img/joannatut.jpg"></img>
 				</div>
-				
+			</div>
+			<br />
+		</div>
+		<hr />
+		<div class="footer row-fluid marketing">
+			<div class="span5 offset1">
+				<h3>
+					Contact Us
+				</h3>
+				<form>
+					<div class="controls controls-row">
+						<input id="name" name="name" type="text" class="span5" placeholder="Name" />
+						<input id="email" name="email" type="text" class="span5" placeholder=
+							"Email address" />
+					</div>
+					<div class="controls">
+						<textarea id="message" name="message" class="span10" placeholder="Your Message" rows=
+							"5">
+						</textarea>
+					</div>
+					<div class="controls">
+						<button id="contact-submit" onclick="sendMail()" type="submit" class=
+							"btn btn-primary input-medium">Send</button>
+					</div>
+				</form>
+			</div>
+			<div class="span4 offset1">
+				<br />
+				<br />
+				<img src="assets/img/logoni.jpg" alt="Image" /><br />
+				<p>Irvine, CA<br>(949) 529 - 1832<br>Monday-Friday 10:00 AM - 6:00 PM <br><a>info@inspiraspanishtutoring.com</a></p>
+				<a href="https://www.facebook.com/InspiraSpanishTutoring"><img src="assets/img/fb.jpg"/></a>
+				<a href="https://twitter.com/InspiraTutoring"><img src="assets/img/tw.jpg"/></a>
+				<a href = "http://www.linkedin.com/company/inspira-spanish-tutoring"><img src="assets/img/li.jpg"/></a>
 			</div>
 		</div>
-			<br/><br/><br/><hr/><br/><br/>
-			<div class= "container row-fluid">
-				
-				
-				<div class=" tutbio span6" >
-				<h4 style="font-weight: bold;">
-				Joanna Godinez
-				</h4>
-				<h5 style="font-weight: bold;">
-				Tutor
-				</h5>
-				<p>
-				Joanna graduated from the University of California, Irvine in 2013 with a Bachelor’s degree in Psychology and Anthropology and a minor in Spanish. She became a member of the National Collegiate Hispanic Honor Society in 2011 and served as treasurer her fourth year and Co-President her fifth year for the honor society. She volunteered weekly as a tutor for READ/OC where she planned weekly tutoring sessions for an ESL adult learner. In high school she always helped students in her AP Spanish class with their homework assignments, essays, and presentations. <br/><br/>
-				Joanna really enjoys working with and helping others improve their Spanish language skills and is extremely excited to start working with students who are interested in learning the Spanish language!<br/><br/>
-				Relevant College Courses:<br/> 
-				Grammar and Composition, Introduction to Latin America Literature and Culture, Spanish American Short Novel, 20th Century Mexican Literature
-				</p>
-				</div>
-				<div class="span6">
-				<img src="assets/img/joannatut.jpg"></img>
-				</div>
-		
-		</div>
-	
-       <br />
-      
-	  </div>
-      <hr />
-      <div class="footer row-fluid marketing">
-        <div class="span5 offset1">
-          <h3>
-            Contact Us
-          </h3>
-          <form>
-            <div class="controls controls-row">
-              <input id="name" name="name" type="text" class="span5" placeholder="Name" />
-              <input id="email" name="email" type="text" class="span5" placeholder=
-              "Email address" />
-            </div>
-            <div class="controls">
-              <textarea id="message" name="message" class="span10" placeholder="Your Message" rows=
-              "5">
-</textarea>
-            </div>
-            <div class="controls">
-              <button id="contact-submit" onclick="sendMail()" type="submit" class=
-              "btn btn-primary input-medium">Send</button>
-            </div>
-          </form>
-        </div>
-        <div class="span4 offset1">
-          <br />
-          <br />
-          <img src="assets/img/logoni.jpg" alt="Image" /><br />
-          <p>Irvine, CA<br>(949) 529 - 1832<br>Monday-Friday 10:00 AM - 6:00 PM <br><a>info@inspiraspanishtutoring.com</a></p>
-		  <a href="https://www.facebook.com/InspiraSpanishTutoring"><img src="assets/img/fb.jpg"/></a>
-		  <a href="https://twitter.com/InspiraTutoring"><img src="assets/img/tw.jpg"/></a>
-		  <a href = "http://www.linkedin.com/company/inspira-spanish-tutoring"><img src="assets/img/li.jpg"/></a>
-        </div>
-      </div>
-    </div><!-- /container -->
- <?php include 'footer.php'; ?>
+	</div>
+	<!-- /container -->
+	<?php include 'footer.php'; ?>
