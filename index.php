@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<body>
+<body style="background-image:url('assets/img/spots1.jpg'); background-repeat:no-repeat;">
 	<div class="container">
 		<div class="masthead">
 			<ul class="nav nav-pills pull-right">

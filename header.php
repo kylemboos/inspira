@@ -10,6 +10,7 @@
 		<meta name="description" content="" />
 		<meta name="author" content="" />
 		<!-- Le styles -->
+		<link href="assets/css/inspira.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
 		<style type="text/css">

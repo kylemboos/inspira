@@ -79,7 +79,7 @@
 							Jaclyn Provencher
 						</h4>
 						<h5 style="font-weight: bold;">
-							President / Tutor
+							President
 						</h5>
 						<p>
 							Jaclyn began studying Spanish when she was 12 and realized early on that it was her passion. She graduated from the University of California, Irvine  with BA’s in Spanish and Global Cultures with a minor in Latin American Studies. During the Fall Quarter of her last year at UC Irvine, she studied abroad in Santiago, Chile and lived with a home-stay, traveled throughout Latin America, and had an internship teaching English to elementary school children. <br/><br/>
@@ -97,7 +97,11 @@
 			<hr/>
 			<br/><br/>
 			<div class= "container row-fluid">
-				<div class=" tutbio span6" >
+			<div class="span3">
+					<img src="assets/img/joannatut.jpg"></img>
+				</div>
+				
+				<div class=" tutbio span6 offset1" >
 					<h4 style="font-weight: bold;">
 						Joanna Godinez
 					</h4>
@@ -111,11 +115,55 @@
 						Grammar and Composition, Introduction to Latin America Literature and Culture, Spanish American Short Novel, 20th Century Mexican Literature
 					</p>
 				</div>
-				<div class="span6">
-					<img src="assets/img/joannatut.jpg"></img>
-				</div>
+				
 			</div>
-			<br />
+			<br/><br/><br/>
+			<hr/>
+			<br/><br/>
+			<div class= "container row-fluid" >
+				
+				<div class=" tutbio span6">
+					<h4 style="font-weight: bold;">
+						Vanessa Kimball
+					</h4>
+					<h5 style="font-weight: bold;">
+						Tutor
+					</h5>
+					<p>
+						Vanessa was surrounded by Spanish at a very young age and has always had an interest in languages. She was raised in a bi-racial household; her mother being first generation in the United States from Mexico. It was the exposure from her mother's family that made Vanessa curious about the Spanish language. She understood spoken Spanish, but she began to learn how to formally read, write, and speak Spanish in school. Because of her fascination of the Spanish language, she began to take classes and begin to learn another language, Portuguese. <br/><br/>
+						Vanessa spends her free time volunteering for events, specifically translating to spanish speakers. Vanessa also helps reinforce Spanish for young children that are enrolled in Spanish immersion schools. She ultimately wants to pursue a career in teaching Spanish and interpreting. Ultimately, Vanessa's INSPIRAtion was her "abuelo's" whom only spoke spanish, and hopes to give back to the community and inspire others as much as her "abuelo's" did. <br/><br/>
+						Relevant College Courses:<br/> 
+						Spanish 1-4, Spanish Grammar, Conversational Spanish, Latin American Films-Conducted in Spanish
+					</p>
+				</div>
+				
+				<div class="span6">
+					<img src="assets/img/spots1.jpg"></img>
+				</div>				
+			</div>
+			<br/><br/><br/>
+			<hr/>
+			<br/><br/>
+			<div class= "container row-fluid">
+			<div class="span3">
+					<img src="assets/img/myratut.jpg"></img>
+				</div>
+				
+				<div class=" tutbio span6 offset1" >
+					<h4 style="font-weight: bold;">
+						Myra Lopez
+					</h4>
+					<h5 style="font-weight: bold;">
+						Tutor
+					</h5>
+					<p>
+						Mayra will be graduating Spring 2014 fromthe University of California, Irvine with Bachelors’ in Public Health Science and inChicano Latino Studies. She is an aspiring pre-med student that is planning to pursue a career in the medical field. She has traveledto Mexico, Honduras, and Spain. While in Honduras, she traveled with Global MedicalBrigades to rural areas where they provided medical aid to individuals that do not havethe ability to seek medical care on a normal basis. She taught other brigade personnel conversational Spanish, led a Spanish class, translated medical terminology, and explainedmedication usage to Honduran patients. She has been working as a diabetes selfmanagement educator for the past 3 years where she helps facilitate class discussions in Spanish. <br/><br/>
+						While in high school, Mayra excelledon the SAT Spanish subject test and Spanish Language AP exam.  She has also received awards from Hoag Hospital for her outstanding dedication and exemplary<br/><br/>
+						</p>
+				</div>
+				
+			</div>
+			<br/>
 		</div>
 		<hr />
 		<div class="footer row-fluid marketing">
