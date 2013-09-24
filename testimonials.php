@@ -78,6 +78,16 @@
 							Elizabeth – Costa Mesa, CA
 						</p>
 						<br>
+						<br>
+					</div>
+					<div class ="testimonial">
+						<p>
+							"Mrs. Joanna, through her studies in psychology and behavioral therapy, is well-qualified to work with children. I find most important her kindness and her understanding for children's mental state of being, with which she approaches all of our children, mostly through patience and active listening to the child.  Her ability to communicate with the children in Spanish in a playful manner helps her teach Spanish without making my children feel as if they are in a classroom setting."						</p>
+						<p style="text-align:right; font-style: italic;">
+							-Jenna, Irvine, CA
+						</p>
+						<br>
+						
 					</div>
 				</div>
 			</div>

@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<body style="background-image:url('assets/img/spots1.jpg'); background-repeat:no-repeat;">
+<body>
 	<div class="container">
 		<div class="masthead">
 			<ul class="nav nav-pills pull-right">
@@ -37,7 +37,12 @@
 				language. All of our instructors are friendly, patient, and aspire to motivate students
 				to become fluent in Spanish.
 			</p>
-			<a class="btn btn-large btn-success" href="services.php">Services</a><br />
+			
+				<a class="btn btn-large btn-primary custom-size" href="tutors.php">Tutors</a>
+				<a class="btn btn-large btn-danger custom-size" href="services.php">Services</a>
+				<a class="btn btn-large btn-warning custom-size" href="testimonials.php">Testimonials</a>
+			
+			<br/>
 		</div>
 		<hr />
 		<div class="footer row-fluid marketing">

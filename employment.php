@@ -21,9 +21,13 @@
 	font-size: 48px;
 	line-height: 1;
 	}
-	.jumbotron p {
+	h4 {
 	text-align:justify;
 	}
+	p{
+	text-align:justify;
+	}
+	
 	.jumbotron .btn {
 	font-size: 21px;
 	padding: 14px 24px;
@@ -56,23 +60,55 @@
 		<div class="jumbotron">
 			<div class="row-fluid marketing">
 				<div class="span6 offset3">
-					<h1>Services</h1>
+					<h1>Apply Now!</h1>
 					<hr>
-					<h3>Private and Group Home Tutoring</h3>
-					<p>We specialize in catering to our clients’ needs by travelling to their homes to conduct lessons. One-on-one tutoring is our most common service offered, however we also provide lessons for small groups of students that have relatively the same level of understanding of Spanish. Prices will vary depending on the size of the groups.</p>
-					<br>
-					<h3>Live Web Seminars</h3>
-					<p>Travel often? Work odd hours? No problem! Let us help you learn Spanish from the web. We are able to connect with clients via the internet and conduct sessions with audio and visual aids to simulate a private face-to-face session. We strive to break the boundaries of traditional tutoring and cater to the learning style of each individual, and for some students web-based tutoring is the most effective way to learn a language.</p>
-					<br>
-					<h3>Language and Culture Corporate Crash Courses</h3>
-					<p>Is your company thinking of expanding into the emerging Latin American markets or planning a business trip to Spain? We’ve got you covered! In today’s world, knowing the political, social, and historical aspects of a particular person’s culture can be the key to gaining their trust, and their business. We will provide you with not only linguistic information of your area of interest, but also cultural insight. Our staff will travel to your office and provide a “crash course” on the region your business is beginning to reach out to.</p>
-					<br>
-					<h3>Online Resources</h3>
-					<p>All of our students are given access to supplemental information and resources that are not provided by teachers or other instructors. We have created worksheets, examples, and online video tutorials on various subjects for students that would like to practice their Spanish outside of tutoring sessions.</p>
-					<br>        
-					<h3>SAT/AP Test Prep</h3>
-					<p>Our tutors and educators are specialized in teaching curriculum that will appear on standardized tests. We focus on grammar, oral, and written skills that are vital to passing these rigorous tests. Timed multiple choice and reading questions will help students master the timed sections on tests, and feel more confident on test day.</p>
-				</div>
+					<form>
+						<div class="controls ">
+							<input id="name" name="name" type="text" class="span4" placeholder="Name" />
+							<input id="email" name="email" type="text" class="span4" placeholder=
+								"Email address" />
+							<input id="phone" name="phone" type="text" class="span4" placeholder="Phone" />
+						</div>
+						<div class="controls">
+							<textarea id="message" name="message" class="span12" placeholder="Please paste the completed application below AND your current resume in this field." rows=
+								"5"></textarea>
+						</div>
+						<div class="controls">
+							<button id="contact-submit" onclick="sendApplication()" type="submit" class=
+								"btn btn-primary input-medium">Send</button>
+						</div>
+					</form>
+					<hr/><br/>
+					<h3>Application</h3></hr>
+					<h4>Please list which cities you are available to tutor in:</h4>
+					</br>
+					<h4>Please indicate the levels of Spanish you feel qualified to tutor.</h4>
+					<p>Conversational</br>
+					Grammatical</br>
+					Advanced Placement/SAT Preperation</br>
+					Beginner</p>
+					<h4>Education</h4>
+					<p>Please list relevant courses in Spanish that you have taken:</P>
+					<h4>Exams Passed, score, and year taken (if not taken please write N/A)</h4>
+					<p>AP Spanish Language:</br>
+					AP Spanish Literature</br>
+					IB Spanish Exam:</br>
+					SAT II Spanish:</br>
+					Other relevant exams or certifications:</p>
+					<h4>Other Honors and Achievements</h4>	
+					<p>Please list any awards, clubs, or travel experience that have helped you improve your Spanish or
+					have given you experience in teaching:</p>
+					<h4>Personal Goals and Interests</h4>
+					<p>Please explain why you would like to help others learn Spanish. Also, we would like to know if you
+					have any special goals as a tutor; do you like to work with children, college students, no preference?</br>	
+					Do you have any specialties like grammar, writing essays, or conversational Spanish?</p>
+					<h4>Availability</h4>	
+					<p>Earliest start date:</br>
+					Hours available per week:</p>
+					<p>**Since this is not a full time position and client volume changes frequently, please indicate if you
+					would be interested in being contacted in the future to tutor if we do not currently have a need for 
+					extra tutors**</p>
+					</div>
 			</div>
 		</div>
 		<hr>

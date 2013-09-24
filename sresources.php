@@ -60,7 +60,7 @@
 					<hr>
 					<h4> <a href="http://wordreference.com/">Wordreference.com</a></h4>
 					<p>
-						this site functions like a dictionary or a translator, but it also
+						This site functions like a dictionary or a translator, but it also
 						provides additional information. There are threads on particular words that 
 						describe common phrases and idioms they are used with. It also defines words 
 						according to geographical location because in some cases words vary greatly with 
@@ -68,35 +68,65 @@
 					</p>
 					<br>
 					<h4><a href="http://www.rae.es/">RAE</a></h4>
-					<p></p>
+					<p>
+					The RAE, in English, stands for the Royal Spanish Academy that is based 
+					in Madrid, Spain and is associated with national language academies in twentyone other Spanish speaking nations in the world. This institution is dedicated to 
+					all things having to do with the Spanish language such as adding new words to the
+					dictionary, linguistic unity between territories, and other changes to the Spanish language.
+					</p>
 					</br>
 					<h4><a href="http://www.elmundo.es/diccionarios/index.html?a=9423554f2cb4364ef01a9eecbacf40f9&t=1281454584">Synonyms/Antonyms</a></h4>
 					<p>
+					This website is useful for students in higher level Spanish classes that involve essay
+					writing. Students can search for synonyms and antonyms in order to diversify their language and expand their vocabulary.
 					</p>
 					</br>
 					<h4><a href="http://www.usembassy.gov/">Embassies</a></h4>
-					<p>List of embassies (scroll down for Americas)</p>
+					<p>
+					For those interested in travelling, here is a list of the Embassies. Their websites not
+					only contain travel tips, but also cultural information and interesting facts about
+					their countries. Browsing and Embassy site can help students with school projects
+					that urge them to research the culture, food, or music from Spanish speaking countries.
+					
+					</p>
 					</br>
 					<h4>Online Radio/Newspaper Resources</h4>
 					<p>
+					Below are various resources to help students improve their reading and listening
+					skills in Spanish.
+					</p>
 						<a href="http://www.listenlive.eu/spain.html">Listenlive.eu</a></br>
 						<a href="http://tunein.com/radio/Spanish-Music-c57945/">Tuinein.com</a>
-					</p>
+					</br>
 					</br>
 					<h4><a href="http://spanish.about.com/od/spanishlanguagecinema/tp/popular_films.htm">Top Movies in Spanish</a></h4>
 					<p>
+					A list of highly ranked Spanish movies !
 					</p>
 					</br>
 					<h4>Important Literature by Spanish Authors</h4>
 					<p>
+					For those interested in a good read, try browsing through the following sites. Many
+					of these titles have been translated into English for those that do not possess an 
+					advanced level of Spanish.
+					</p>
+					
 						<a href="http://www.goodreads.com/list/show/262.Libros_en_Espa_ol">Goodreads.com</a></br>
 						<a href="http://conversationalreading.com/top-25-spanish-language-novels-written-since-1982/">Conversationalreading.com</a>
-					</p>
-					<br>
+					
+					</br>
+					</br>
 					<h4>Study Tips</h4>
 					<p>
-						<a href="http://markmanson.net/foreign-language">Learning a Foreign Language</a>
+					Here are some helpful tips and tools to learning a foreign language. Our skilled
+					tutors help students understand the concepts of Spanish vocabulary and grammar, 
+					but there are many other ways that dedicated students can continue to study
+					Spanish outside of tutoring sessions. Check out the methods used by other students 
+					of language that have helped them become bilingual! 
+					</br>
 					</p>
+						<a href="http://markmanson.net/foreign-language">Learning a Foreign Language</a>
+					
 				</div>
 			</div>
 		</div>

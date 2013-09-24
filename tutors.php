@@ -23,6 +23,7 @@
 	}
 	.jumbotron p {
 	text-align:justify;
+	
 	}
 	.jumbotron .btn {
 	font-size: 21px;
@@ -84,26 +85,55 @@
 						<p>
 							Jaclyn began studying Spanish when she was 12 and realized early on that it was her passion. She graduated from the University of California, Irvine  with BA’s in Spanish and Global Cultures with a minor in Latin American Studies. During the Fall Quarter of her last year at UC Irvine, she studied abroad in Santiago, Chile and lived with a home-stay, traveled throughout Latin America, and had an internship teaching English to elementary school children. <br/><br/>
 							Jaclyn has been tutoring independently in Orange County throughout college and she has experience teaching a myriad of levels of Spanish. She has passed the Spanish Language AP exam, Spanish Literature AP exam, and the SAT Spanish subject test. She is also a member of the National Collegiate Hispanic Honor Society (Sigma Delta Pi) and she served as Vice President her third year at UCI and Co-President for her final year.<br/><br/>
-							Relevant College Courses:<br/> 
-							Textual Analysis and Interpretation, 20th Century Mexican Literature, Latin American Poetry, The Prose of Borges, Grammar and Composition,  Spanish Phonetics, Introduction to Spanish Linguistics, Advanced Conversation, Latin American Spanish
 						</p>
+						
 					</div>
 					<div class="span6">
+						</br>
+						</br>
+						</br>
+						</br>
 						<img src="assets/img/jaclyntut.jpg"></img>
 					</div>
 				</div>
+			</div>
+			<br/><br/><br/>
+			<br/><br/>
+			<div class= "container row-fluid">
+			<div class="span3">
+					</br>
+					</br>
+					</br>
+				
+					<img src="assets/img/jaclyntut2.jpg"></img>
+				</div>
+				
+				<div class=" tutbio span6 offset1" >
+					
+					<p>
+							During her final year of college after returning from Chile, Jaclyn had the idea of starting her own Spanish tutoring business in Orange County. After tutoring throughout her college career and only being able to help a limited amount of students due to her academic responsibilities, she realized that she could help far more students by finding qualified tutors to help others become bilingual. Jaclyn hopes that her business will communicate her passion for Spanish and fuel the <strong>inspira</strong>tion of her students to become bilingual. Her goal is not only to help students improve their grades, but also to encourage the study of languages while demonstrating the benefits of being bilingual. These "benefits" have allowed her to study and live in another country, travel and witness various cultures, and begin a business that she is truly passionate about.</br></br>
+							When she isn't devoting her time to growing her business, Jaclyn volunteers her time coaching an Irvine Girls Softball team of 12-15 year olds. She has played softball since she was 8 and loves giving back to the community by helping girls become better athletes and individuals. Jaclyn also loves to travel and has visited countries such as Chile, Peru, Argentina, Mexico, Taiwan, China, and Australia. Through Inspira Spanish Tutoring she hopes to encourage students to travel and engage with other cultures as she has. </br></br>
+							Relevant College Courses:<br/> 
+							Textual Analysis and Interpretation, 20th Century Mexican Literature, Latin American Poetry, The Prose of Borges, Grammar and Composition,  Spanish Phonetics, Introduction to Spanish Linguistics, Advanced Conversation, Latin American Spanish
+					</p>
+				</div>
+				
 			</div>
 			<br/><br/><br/>
 			<hr/>
 			<br/><br/>
 			<div class= "container row-fluid">
 			<div class="span3">
+						</br>
+						</br>
+						</br>
+						</br>
 					<img src="assets/img/joannatut.jpg"></img>
 				</div>
 				
 				<div class=" tutbio span6 offset1" >
 					<h4 style="font-weight: bold;">
-						Joanna Godinez
+						Joanna
 					</h4>
 					<h5 style="font-weight: bold;">
 						Tutor
@@ -124,7 +154,7 @@
 				
 				<div class=" tutbio span6">
 					<h4 style="font-weight: bold;">
-						Vanessa Kimball
+						Vanessa
 					</h4>
 					<h5 style="font-weight: bold;">
 						Tutor
@@ -138,6 +168,10 @@
 				</div>
 				
 				<div class="span6">
+					</br>
+					</br>
+					</br>
+					</br>
 					<img src="assets/img/spots1.jpg"></img>
 				</div>				
 			</div>
@@ -146,12 +180,16 @@
 			<br/><br/>
 			<div class= "container row-fluid">
 			<div class="span3">
+					</br>
+					</br>
+					</br>
+					</br>
 					<img src="assets/img/myratut.jpg"></img>
 				</div>
 				
 				<div class=" tutbio span6 offset1" >
 					<h4 style="font-weight: bold;">
-						Myra Lopez
+						Myra
 					</h4>
 					<h5 style="font-weight: bold;">
 						Tutor
@@ -162,6 +200,34 @@
 						</p>
 				</div>
 				
+			</div>
+			<br/><br/><br/>
+			<hr/>
+			<br/><br/>
+			<div class= "container row-fluid" >
+				
+				<div class=" tutbio span6">
+					<h4 style="font-weight: bold;">
+						Belen
+					</h4>
+					<h5 style="font-weight: bold;">
+						Tutor
+					</h5>
+					<p>
+						Belen was born and raised in Lima, Peru and at the age of 15 she moved to the United States to continue her education. She is now a current student at California State University Fullerton, and is double majoring in Spanish and Psychology. During high school in La Habra she was a member of the Spanish Club and continued studying her native language.  She has passed both the Spanish Language AP exam and Spanish Literature AP exam. Belen has also written articles in Spanish and English for  the Santa Ana Semanal, La Habra Journal, and La Antorcha. <br/><br/>
+						Belen loves to share her knowledge not only of Spanish literature, grammar, and composition but she also  enjoys introducing students to the various Spanish and Hispanic cultures. She feel that although Spanish to others may only be a language, it is spoken in more than 20 countries and it is the centerpiece of many beautiful cultures around the world. Belen also feels that it is very beneficial in the United States to be able to understand, speak, and write Spanish, especially with regard to business. For Belen, being bilingual has given her many opportunities in life and she looks forward to helping others become bilingual with Inspira. <br/><br/>
+						Relevant College Courses:<br/> 
+						Advanced Spanish Grammar, Spanish Composition, Conversational Spanish for Native Speakers
+					</p>
+				</div>
+				
+				<div class="span6">
+					</br>
+					</br>
+					</br>
+					</br>
+					<img src="assets/img/spots1.jpg"></img>
+				</div>				
 			</div>
 			<br/>
 		</div>

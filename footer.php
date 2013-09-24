@@ -39,6 +39,26 @@
 						}
 			}
 			
+			function sendApplication(e) {
+					e.preventDefault();
+					 var name = $('#name').val();
+	                 var email = $('#email').val();
+					 var phone = $('#phone').val();
+	                 var message = $('#message').val();
+					 
+					 if(name == ("" || " ") || email == ("" || " ") || phone == ("" || " ") || message == ("" || " ")){
+						alert("Please fill out all fields!");
+					 }
+					 else{
+				$.post("sendApplication.php", {fname:name, femail:email, fphone:phone, fmessage:message}, function(data){
+					console.log(data);
+					document.location.reload(true);
+					messageSent();
+				});
+					
+						}
+			}
+			
 			function messageSent(){
 				alert("Message Sent!");
 				}

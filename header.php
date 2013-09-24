@@ -13,12 +13,36 @@
 		<link href="assets/css/inspira.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+		<!-- Fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
 		<style type="text/css">
 			/*<![CDATA[*/
 				body {
 				    padding-top: 20px;
 				    padding-bottom: 40px;
 				  }
+				p {
+					font-family: 'Cabin', Helvetica, Arial, sans-serif;
+					line-height: 25px;
+					font-size: 16px;
+				}
+				h1{
+					font-family: 'Lobster', Georgia, Times, serif;
+					line-height: 50px;
+				}
+				h2{
+					font-family: 'Lobster', Georgia, Times, serif;
+					line-height: 50px;
+				}
+				h3{
+					font-family: 'Lobster', Georgia, Times, serif;
+					line-height: 50px;
+				}
+				h4{
+					font-family: 'Lobster', Georgia, Times, serif;
+					line-height: 50px;
+				}
 				
 				  /* Custom container */
 				  .container-narrow {
